@@ -36,3 +36,6 @@ keymap.set('n', '<F5>',':!python3 %')
 keymap.set('n', '<C-q>',':w')
 keymap.set('n', '<C-x>',':w')
 
+-- diffview
+keymap.set('n', 'da', ':DiffviewOpen<Return>')
+keymap.set('n', 'dc', ':DiffviewClose<Return>')
