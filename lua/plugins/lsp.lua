@@ -20,7 +20,7 @@ return {
       -- LSP サーバーの設定
       lspconfig.pyright.setup({})
       lspconfig.emmet_ls.setup({})
-      lspconfig.tsserver.setup({})
+      lspconfig.ts_ls.setup({})
 
       -- ESLint の設定に on_attach を追加
       lspconfig.eslint.setup({
