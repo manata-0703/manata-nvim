@@ -23,3 +23,7 @@ vim.keymap.set("n", "]e", "<cmd>Lspsaga diagnostic_jump_prev<CR>")
 vim.keymap.set("n", "<A-d>", "<cmd>Lspsaga open_floaterm<CR>")
 -- vim.keymap.set("n", "<A-d>", "<cmd>Lspsaga open_floaterm lazygit<CR>")
 vim.keymap.set("t", "<A-d>", [[<C-\><C-n><cmd>Lspsaga close_floaterm<CR>]])
+
+-- copilot
+vim.opt.rtp:prepend("~/.config/nvim/lazy")
+
